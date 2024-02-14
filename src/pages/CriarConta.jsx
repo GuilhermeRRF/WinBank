@@ -47,13 +47,17 @@ function CriarConta() {
               pessoais e dou meu consentimento, quando aplicavel, conforme
               descrita nesta Politica de Privacidade.
             </label>
+
+            <div className={styles.BotaoFormularioPrincipal}>
+            <button className={styles.BotaoFormulario} type="submit">Enviar</button>
+            </div>
           </form>
         </section>
 
         <aside className={styles.ContainerEtapaPrincipal}>
           <div>
             <div className={styles.ContainerEtapa}>
-              <img src={Numero1} alt="primeira etapa" />
+              <img className={styles.ImgEtapa} src={Numero1} alt="primeira etapa" />
             </div>
 
             <div className={styles.ContainerEclipse}>
