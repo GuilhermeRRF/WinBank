@@ -1,15 +1,88 @@
 import styles from "../pages/Etapa2.module.css";
-
+import Numero2 from "../imgs/Numero2.png";
+import Eclipse from "../imgs/EclipseVerde.png";
+import { Link } from "react-router-dom";
 function Etapa2() {
   return (
     <>
-      <section className={styles.Etapa2}>
+      <main className={styles.SecaoPrincipal}>
+        <section className={styles.ContainerFormularioPrincipal}>
+          <form className={styles.ContainerFormulario}>
+            <input
+              className={styles.campo}
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Email"
+              required
+            />
 
+            <input
+              className={styles.campo}
+              type="password"
+              id="senha"
+              name="senha"
+              placeholder="Senha"
+              required
+            />
+            <input
+              className={styles.campo}
+              type="password"
+              id="confirma_senha"
+              name="confirma_senha"
+              placeholder="Confirmação de Senha"
+              required
+            />
 
-        Etapa2
+            <label className={styles.CheckboxPrincipal}>
+              <input
+                className={styles.checkbox}
+                type="checkbox"
+                name="termoPrivacidade"
+              />
+              Eu li, estou ciente das consições de tratamento dos meus dados
+              pessoais e dou meu consentimento, quando aplicavel, conforme
+              descrita nesta Politica de Privacidade.
+            </label>
 
+            <label className={styles.CheckboxPrincipal}>
+              <input
+                className={styles.checkbox}
+                type="checkbox"
+                name="termoPrivacidade"
+              />
+              Aceito receber mensagens com informações do WinBank no Whatsapp.
+            </label>
+          </form>
+        </section>
 
-      </section>
+        <aside className={styles.ContainerEtapaPrincipal}>
+          <div>
+            <div className={styles.ContainerEtapa}>
+              <img src={Numero2} alt="primeira etapa" />
+            </div>
+
+            <div className={styles.ContainerEclipse}>
+              <p className={styles.TextoEtapa}>
+                Criando conta para logar na plataforma, você pode logar
+                colocando o CPF ao inves do Email
+              </p>
+
+              <img
+                className={styles.EclipseVerde}
+                src={Eclipse}
+                alt="eclipse verde com bontão enviar"
+              />
+
+              <Link to="/etapa2" href="#">
+                <button className={styles.botao} type="submit">
+                  Enviar
+                </button>
+              </Link>
+            </div>
+          </div>
+        </aside>
+      </main>
     </>
   );
 }
