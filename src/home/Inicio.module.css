@@ -1,0 +1,1541 @@
+.container {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  justify-content: space-between;
+  background-color: #cccccc;
+}
+
+.TextoBotaoPrincipal {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+  height: 100%;
+}
+
+.TextoBotao {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  height: 80%;
+}
+
+.TituloPrincinpal {
+  width: 80%;
+  height: 40%;
+  font-size: 5rem;
+}
+
+span {
+  color: #51a342;
+}
+
+.ImagemMulher {
+  display: flex;
+  justify-content: end;
+  width: 40%;
+  max-width: 400px;
+  overflow: hidden;
+}
+
+.ImagemMulher > img{
+  width: 100%;
+  background-size: cover;
+
+
+}
+
+
+
+
+.botaocriarconta {
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: #7fdd6f;
+  font-size: 2rem;
+  border-radius: 10rem;
+}
+
+
+/*segunda rolagem*/
+
+.ExplosaoCartaoPrincipal {
+  display: flex;
+  padding: 4vw 0; 
+  background-color: #5f5c5c;
+}
+
+.ExplosaoPrincipal1 {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    background-size: cover;
+    overflow: hidden;
+
+  }
+
+.textocartao {
+  text-align: center;
+  font-size: 2rem;
+  padding: 2rem;
+}
+
+.trescartao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.TresCartaoPrincipal {
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  overflow: hidden;
+
+}
+
+.ExplosaoPrincipal2 {
+  display: flex;
+  align-items: center;
+  background-size: cover;
+  overflow: hidden;
+
+}
+
+
+
+.TresCaixinhas{
+    display: flex;
+    justify-content: center;
+    margin: 5% 0;
+
+}
+
+.caixas{
+    margin: 0 1%;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0;
+    margin: 0 2%;
+    font-size: 1.8rem;
+    background-color: rgb(17, 17, 17);
+    border-radius: 1rem;
+    color: white;
+}
+
+
+
+/*segunda rolagem fim*/
+
+
+
+/*terceira rolagem*/
+
+.SecaoVantagens{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 120vh;
+  background-color: #cccccc;
+}
+
+.LadoDireitoPrincipal{
+width: 30%;
+}
+
+.MeioPrincipal{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 100%;
+}
+
+.ImgTriangulo{
+display: flex;
+position: relative;
+align-items: center;
+width: 100%;
+height: 100%;
+}
+
+.TituloTarifa{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-25%);
+  left: 40%;
+  width: 50%;
+  height: 20%;
+  color: white;
+  font-size: 3rem;
+}
+
+.CaixasVantagensPrincipal{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 40vw;
+  height: 80vh;
+}
+
+.caixa1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 15vw;
+  height: 20vh;
+  margin-top: 5%;
+  border-radius: 2rem;
+  text-align: center;
+  align-items: center;
+  background-color: #7fdd6f;
+}
+
+.TextoCaxinha{
+  width: 85%;
+  height: 80%;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.caixa2{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+  width: 15vw;
+  height: 20vh;
+  margin-top: 5%;
+  border-radius: 2rem;
+  background-color: #7fdd6f;
+}
+.caixa3{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 15vw;
+  height: 20vh;
+  align-self: flex-end;
+  margin-top: 5%;
+  text-align: center;
+  border-radius: 2rem;
+  background-color: #7fdd6f;
+}
+
+
+.ImgRetornoPrincipal{
+  width: 30%;
+  height: 100%;
+  padding-top: 5%;
+}
+
+/*terceira rolagem fim*/
+
+/*quarto rolagem*/
+
+.SobreWinBack{
+  width: 100%;
+  height: 2200px;
+  background-color: rgb(10, 10, 10);
+}
+
+.LogoMarrom{
+  display: flex;
+  padding: 4% 0;
+  justify-content: center;
+}
+
+.TituloSobreWinbank{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  color: white;
+  font-size: 3rem;
+  text-align: center;
+}
+
+
+.TituloSobreWinbankPrincipal{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 20vh;
+}
+
+.TextoSobre{
+  font-size: 2rem;
+  color: rgb(252, 252, 252);
+}
+
+.SobreEmpresa{
+  color: white;
+
+}
+
+.SobreEmpresaPrincipal{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.PredioWinbackPrincipal{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+.TextoSobrenosPrincipal{
+  padding-top: 5%;
+  width: 50%;
+}
+
+.ImgPredio{
+  width: 60%;
+  height: 80%;
+}
+
+.PorqueEscolher{
+  font-size: 3rem;
+  text-align: center;
+  color: white;
+}
+
+.VantagensWinbank{
+  width: 100%;
+  height: 15%;
+}
+
+.PorqueEscolher{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  width: 100%;
+  height: 50%;
+}
+
+.PorqueEscolherPrincipal{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50%;
+}
+
+.SubTituloPorquePrincipal{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50%;
+}
+
+.SubTituloPorque{
+  width: 65%;
+  font-size: 2.5rem;
+  color: white;
+}
+
+.CaixasBeneficiosPrincipal{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  width: 100%;
+  height: 50%;
+  margin: 6% 0;
+}
+
+.CaixaVantagem1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  height: 100%;
+  color: white;
+}
+
+.SemAnuidade{
+  width: 100%;
+  height: 100%;
+}
+
+.TituloVantagens{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 20%;
+  font-size: 1.5rem;
+}
+
+.MiniTextoPrincipal{
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  height: 35%;
+}
+
+.MiniTexto{
+display: flex;
+align-items: center;
+width: 100%;
+margin-top: 10px;
+font-size: 1.5rem;
+  
+}
+
+.PontosPositivosPrincipal{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.ImagemPositivaPrincipal{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5% 0;
+  width: 60%; 
+}
+
+.ImagemPositiva{
+  width: 100%; 
+}
+
+.TextoPositivoPrincipal{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 65%;
+  height: 60%;
+
+}
+
+.TextoPositivo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 80%;
+  font-size: 2.5rem;
+  color: white;
+}
+
+/*quarto rolagem fim*/
+
+
+@media (max-width: 1101px){
+
+  .cartao3{
+    width: 100%;
+    background-size: cover;
+  }
+
+  
+.trescartao {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.TresCartaoPrincipal {
+display: flex;
+flex-direction: column;
+background-size: cover;
+overflow: hidden;
+
+}
+
+
+  .TresCaixinhas{
+    display: flex;
+    justify-content: center;
+    margin: 5% 0;
+
+}
+
+.caixas{
+    margin: 0 1%;
+    width: 23vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem 0.2rem;
+    margin: 0 2%;
+    font-size: 1.8rem;
+    background-color: black;
+    border-radius: 1rem;
+    color: white;
+}
+
+.MeioPrincipal{
+
+
+
+}
+
+.CaixasVantagensPrincipal{
+  z-index: 1;
+}
+
+.TituloPrincinpal {
+  width: 100%;
+  height: 40%;
+  font-size: 5rem;
+}
+
+.CaixasVantagensPrincipal{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 50vw;
+  height: 80vh;
+}
+
+.caixa1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 25vw;
+  height: 20vh;
+  padding: 20px;
+  margin-top: 5%;
+  border-radius: 2rem;
+  text-align: center;
+  align-items: center;
+  background-color: #7fdd6f;
+}
+
+.TextoCaxinha{
+  width: 85%;
+  height:75%;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.caixa2{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+  width: 25vw;
+  height: 20vh;
+  padding: 20px;
+
+  margin-top: 5%;
+  border-radius: 2rem;
+  background-color: #7fdd6f;
+}
+.caixa3{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 25vw;
+  height: 20vh;
+  padding: 20px;
+  align-self: flex-end;
+  margin-top: 5%;
+  text-align: center;
+  border-radius: 2rem;
+  background-color: #7fdd6f;
+}
+
+.ImgTriangulo{
+  display: flex;
+  position: relative;
+  align-items: center;
+  width: 90%;
+  height: 100%;
+  }
+
+  .LadoDireitoPrincipal{
+    width: 20%;
+    }
+    
+
+}
+
+@media (max-width: 1050px){
+
+
+  .PredioWinbackPrincipal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+  }
+  
+  .TextoSobrenosPrincipal{
+    width: 50%;
+    height: 350px;
+  }
+  
+  .ImgPredio{
+    width: 60%;
+    height: 80%;
+  }
+  
+  
+.SobreEmpresaPrincipal{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+}
+
+.TituloVantagens {
+  display: inline-block;
+margin: 0px 15px ;
+text-wrap: nowrap;
+}
+}
+
+
+/*responsivo celular tablet*/
+
+@media (max-width: 768px) {
+  .container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-color: #cccccc;
+  }
+
+  .TextoBotaoPrincipal {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+
+  .TextoBotao {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    height: 80%;
+  }
+
+  .TituloPrincinpal {
+    width: 80%;
+    height: 40%;
+    font-size: 5rem;
+  }
+
+  span {
+    color: #51a342;
+  }
+
+  .ImagemMulher {
+    display: none;
+    justify-content: end;
+    width: 50%;
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;
+    background-color: #1141df;
+  }
+
+  .botaocriarconta {
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color: #7fdd6f;
+    font-size: 2rem;
+    border-radius: 10rem;
+  }
+  
+  
+/*segunda rolagem*/
+
+.ExplosaoCartaoPrincipal {
+  display: flex;
+  background-color: #5f5c5c;
+
+}
+
+.ExplosaoPrincipal1 {
+    display: none;
+    width: 35vw;
+    align-items: center;
+    justify-content: end;
+    background-size: cover;
+    overflow: hidden;
+
+  }
+
+.textocartao {
+  text-align: center;
+  font-size: 1.9rem;
+  padding: 5rem;
+}
+
+.trescartao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.TresCartaoPrincipal {
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  overflow: hidden;
+
+}
+
+.ExplosaoPrincipal2 {
+  display: none;
+  width: 35vw;
+  align-items: center;
+  background-size: cover;
+  overflow: hidden;
+
+}
+
+
+
+.TresCaixinhas{
+    display: flex;
+    justify-content: center;
+    margin: 5% 0;
+
+}
+
+.caixas{
+    margin: 0 1%;
+    width: 25%;
+    display: flex;
+    padding: 2rem 0;
+    margin: 0 2%;
+    font-size: 1.5rem;
+    background-color: rgb(17, 17, 17);
+    color: white;
+}
+
+
+
+/*segunda rolagem fim*/
+
+
+
+/*terceira rolagem*/
+
+.SecaoVantagens{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column-reverse;
+  height: 120vh;
+  background-color: #cccccc;
+}
+
+.LadoDireitoPrincipal{
+width: 30%;
+}
+
+.MeioPrincipal{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.ImgTriangulo{
+display: none;
+align-items: center;
+width: 100%;
+height: 100%;
+}
+
+.TituloTarifa{
+  position: absolute;
+  top: 281%;
+  left: 10%;
+  width: 20%;
+  height: 20%;
+  color: white;
+  font-size: 3rem;
+}
+
+.CaixasVantagensPrincipal{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 80vh;
+
+}
+
+.caixa1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50vw;
+  height: 35vh;
+  margin-top: 5%;
+  text-align: center;
+  align-items: center;
+  background-color: #7fdd6f;
+}
+
+.TextoCaxinha{
+  display:flex;
+  align-items: center;
+  width: 85%;
+  height: 60%;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.TituloCaixinha{
+font-size: 2rem;
+
+}
+
+.caixa2{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+  width: 50vw;
+  height: 35vh;
+  margin-top: 5%;
+  border-radius: 2rem;
+  background-color: #7fdd6f;
+}
+.caixa3{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50vw;
+  height: 35vh;
+  align-self: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  text-align: center;
+  border-radius: 2rem;
+  background-color: #7fdd6f;
+}
+
+
+.ImgRetornoPrincipal{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  height: 60%;
+
+}
+
+/*terceira rolagem fim*/
+
+/*quarto rolagem*/
+
+.SobreWinBack{
+  height: 350%;
+  background-color: rgb(15, 15, 15);
+  padding: 10% 0;
+}
+
+.LogoMarrom{
+  padding: 4% 0;
+  justify-content: center;
+}
+
+.LogoMarromImg{
+  width: 20%;
+}
+
+.TituloSobreWinbank{
+  display: flex;
+  width: 80%;
+  color: white;
+  font-size: 2.2rem;
+  padding: 0%;
+  text-align: center;
+
+}
+
+
+.TituloSobreWinbankPrincipal{
+  width: 100%;
+  height: 20vh;
+
+}
+
+.TextoSobre{
+  width: 80%;
+  height: 100%;
+  font-size: 2rem;
+  color: rgb(252, 252, 252);
+}
+
+.SobreEmpresa{
+  color: white;
+
+}
+
+.SobreEmpresaPrincipal{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 20%;
+}
+
+.PredioWinbackPrincipal{
+  width: 100%;
+  height: 50%;
+}
+
+.TextoSobrenosPrincipal{
+  display: flex;
+  justify-content: center;
+  text-align: justify;
+  width: 100%;
+  height: 80%;
+  padding: 2% 0;
+}
+
+.ImgPredio{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  height: 80%;
+}
+
+.PorqueEscolher{
+  font-size: 2.2rem;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.VantagensWinbank{
+  width: 100%;
+  height: 10%;
+}
+
+.PorqueEscolher{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.2rem;
+  width: 80%;
+  height: 50%;
+}
+
+.PorqueEscolherPrincipal{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50%;
+  margin: 15% 0;
+
+}
+
+.SubTituloPorquePrincipal{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  
+}
+
+.SubTituloPorque{
+  width: 65%;
+  font-size: 2rem;
+  color: white;
+  text-align: justify;
+  margin: 10% 0;
+
+}
+
+.CaixasBeneficiosPrincipal{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 250%;
+  margin: 20% 0;
+
+}
+
+.CaixaVantagem1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  color: white;
+  margin-bottom:5%;
+
+}
+
+.SemAnuidade{
+  width: 100%;
+  height: 100%;
+}
+
+.TituloVantagens{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 20%;
+  font-size: 1.5rem;
+}
+
+.MiniTextoPrincipal{
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  height: 35%;
+}
+
+.MiniTexto{
+display: flex;
+align-items: center;
+width: 100%;
+height: 100%;
+font-size: 1.5rem;
+
+}
+
+.PontosPositivosPrincipal{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.ImagemPositivaPrincipal{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5% 0;
+  width: 60%; 
+}
+
+.ImagemPositiva{
+  width: 120%;
+  height: 20%; 
+}
+
+.TextoPositivoPrincipal{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 60%;
+  text-align: justify;
+
+
+}
+
+.TextoPositivo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 80%;
+  font-size: 2rem;
+  color: white;
+}
+
+/*quarto rolagem fim*/
+
+
+
+
+@media (max-width: 500px) {
+  .container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-color: #cccccc;
+  }
+
+  .TextoBotaoPrincipal {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+
+  .TextoBotao {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    height: 80%;
+  }
+
+  .TituloPrincinpal {
+    width: 90%;
+    height: 45%;
+    font-size: 4rem;
+    text-align: center;
+  }
+
+  span {
+    color: #51a342;
+  }
+
+  .ImagemMulher {
+    display: none;
+    justify-content: end;
+    width: 50%;
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;
+  }
+
+  .botaocriarconta {
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: #7fdd6f;
+    font-size: 2rem;
+    border-radius: 10rem;
+    
+  }
+  
+/*segunda rolagem*/
+
+.ExplosaoCartaoPrincipal {
+  display: flex;
+  background-color: #5f5c5c;
+
+}
+
+.ExplosaoPrincipal1 {
+    display: none;
+    width: 35vw;
+    align-items: center;
+    justify-content: end;
+    background-size: cover;
+    overflow: hidden;
+
+  }
+
+.textocartao {
+  text-align: center;
+  font-size: 2rem;
+  padding: 2rem;
+}
+
+.trescartao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    overflow: hidden;
+}
+img{
+  width: 95%;
+  height: 95%;
+}
+
+.TresCartaoPrincipal {
+  display: flex;
+  width: 100vw;
+  flex-direction: column;
+  background-size: cover;
+  overflow: hidden;
+
+}
+
+.ExplosaoPrincipal2 {
+  display: none;
+  width: 35vw;
+  align-items: center;
+  background-size: cover;
+  overflow: hidden;
+
+}
+
+
+
+.TresCaixinhas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.caixas{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0;
+    margin: 0.5% 0;
+    font-size: 1.5rem;
+    text-align: center;
+    background-color: rgb(17, 17, 17);
+    color: white;
+}
+
+
+
+/*segunda rolagem fim*/
+
+
+
+/*terceira rolagem*/
+
+.SecaoVantagens{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column-reverse;
+  height: 120vh;
+  background-color: #cccccc;
+}
+
+.LadoDireitoPrincipal{
+width: 30%;
+}
+
+.MeioPrincipal{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.ImgTriangulo{
+display: none;
+align-items: center;
+width: 100%;
+height: 100%;
+}
+
+.TituloTarifa{
+  position: absolute;
+  top: 281%;
+  left: 10%;
+  width: 20%;
+  height: 20%;
+  color: white;
+  font-size: 3rem;
+}
+
+.CaixasVantagensPrincipal{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 80vh;
+
+}
+
+.caixa1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 70vw;
+  height: 35vh;
+  margin-top: 5%;
+  border-radius: 2rem;
+  text-align: center;
+  align-items: center;
+  background-color: #7fdd6f;
+}
+
+.TextoCaxinha{
+  display:flex;
+  align-items: center;
+  width: 85%;
+  height: 80%;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.TituloCaixinha{
+  padding-top: 10%;
+  font-size: 2rem;
+}
+
+.caixa2{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+  width: 70vw;
+  height: 35vh;
+  margin-top: 5%;
+  border-radius: 2rem;
+  background-color: #7fdd6f;
+}
+.caixa3{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 70vw;
+  height: 35vh;
+  align-self: center;
+  text-align: center;
+  border-radius: 2rem;
+  background-color: #7fdd6f;
+}
+
+
+.ImgRetornoPrincipal{
+  width: 60%;
+  height: 30%;
+
+}
+
+/*terceira rolagem fim*/
+
+}
+
+/*quarto rolagem*/
+
+.SobreWinBack{
+  height: 350%;
+  background-color: rgb(17, 14, 14);
+}
+
+.LogoMarrom{
+  padding: 4% 0;
+  justify-content: center;
+}
+
+.TituloSobreWinbank{
+  display: flex;
+  width: 80%;
+  color: white;
+  font-size: 2.2rem;
+  padding: 0%;
+  text-align: center;
+
+}
+
+
+.TituloSobreWinbankPrincipal{
+  
+  width: 100%;
+  height: 20vh;
+
+}
+
+.TextoSobre{
+  width: 80%;
+  height: 100%;
+  font-size: 2rem;
+  color: rgb(252, 252, 252);
+}
+
+.SobreEmpresa{
+  color: white;
+
+}
+
+.SobreEmpresaPrincipal{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 20%;
+}
+
+.PredioWinbackPrincipal{
+  width: 100%;
+  height: 50%;
+}
+
+.TextoSobrenosPrincipal{
+  display: flex;
+  justify-content: center;
+  text-align: justify;
+  width: 100%;
+  height: 80%;
+  padding: 2% 0;
+}
+
+.ImgPredio{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  height: 80%;
+}
+
+.PorqueEscolher{
+  font-size: 2.2rem;
+  text-align: center;
+  color: rgb(39, 122, 216);
+}
+
+.VantagensWinbank{
+  width: 100%;
+  height: 10%;
+}
+
+.PorqueEscolher{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.2rem;
+  width: 100%;
+  height: 50%;
+}
+
+.PorqueEscolherPrincipal{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50%;
+
+}
+
+.SubTituloPorquePrincipal{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.SubTituloPorque{
+  width: 65%;
+  font-size: 2rem;
+  color: white;
+  text-align: justify;
+
+}
+
+.CaixasBeneficiosPrincipal{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 250%;
+}
+
+.CaixaVantagem1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  color: white;
+  margin-bottom:5%;
+}
+
+.SemAnuidade{
+  width: 100%;
+  height: 100%;
+}
+
+.TituloVantagens{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 20%;
+  font-size: 1.5rem;
+}
+
+.MiniTextoPrincipal{
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  height: 35%;
+}
+
+.MiniTexto{
+display: flex;
+align-items: center;
+width: 100%;
+height: 100%;
+font-size: 1.5rem;
+
+}
+
+.PontosPositivosPrincipal{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.ImagemPositivaPrincipal{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5% 0;
+  width: 60%; 
+}
+
+.ImagemPositiva{
+  width: 120%;
+  height: 20%; 
+}
+
+.TextoPositivoPrincipal{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 60%;
+  text-align: justify;
+
+
+}
+
+.TextoPositivo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 80%;
+  font-size: 2rem;
+  color: white;
+}
+
+/*quarto rolagem fim*/
+}

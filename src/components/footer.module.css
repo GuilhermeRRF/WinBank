@@ -1,0 +1,428 @@
+
+footer{
+    width: 100%;
+    height: 50vh;
+    background-color: black;
+}
+
+.blocoprincipal{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    width: 93%;
+    height: 40vh;
+    margin-left: 5rem;
+    color: white; 
+}
+
+#bloco{
+    width: 15vw;
+    height: 20vh;
+    margin: 1rem;
+}
+
+.bloco1{
+    width: 10vw;
+    height: 20vh;
+    margin: 1rem;
+}
+
+.links{
+display: flex;
+justify-content: baseline;
+margin: 1rem 0;
+font-size: 1.5rem;
+text-decoration: none;
+list-style: none;
+color: white;
+
+}
+
+.linksprincipal{
+    font-size: 1.8rem;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+.lista{
+    text-decoration: none;
+    list-style: none;
+}
+
+.minitexto{
+    width: 70%;
+    height: 10%;
+    margin-left: 5rem;
+    font-size: 1.5rem;
+    color: white;
+}
+
+p{
+    width: 40vw;
+    height: 5vh;
+ 
+}
+.blocodireito{
+    display:  flex;
+    width: 10vw;
+    height: 10vh;
+    background-color:green;
+}
+
+
+.bloco4{
+    width:15vw;
+    height: 35vh;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-top: 6rem;
+
+}
+
+.containerredes{
+    width:15vw;
+    height: 35vh;
+
+}
+
+.baixarg{
+    width: 100%;
+    height: 25%;
+    margin-top: 1rem;
+}
+
+.baixara{
+    width: 100%;
+    height: 25%;
+    margin-top: 1rem;
+}
+
+.titulomobile{
+    width: 15vw;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top:2rem;
+}
+
+.caixaplataforma{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15vw;
+    height: 10vh;
+}
+
+.whats{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.face{
+    width: 20px;
+    height: 20px;
+}
+.insta{
+    width: 40px;
+    height: 20px;
+}
+.twitterx{
+    width: 40px;
+    height: 20px;
+    margin-right: 5px;
+
+}
+
+/*responsivo*/
+
+
+@media (max-width: 768px) {
+   
+    
+footer{
+    width: 100%;
+    height: 170vh;
+    background-color: black;
+}
+
+.blocoprincipal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    height: 150vh;
+    margin: 0 auto;
+    background-color: black;
+    color: white; 
+}
+
+#bloco{
+    width: 50vw;
+    height: 30vh;
+    margin: 2rem;
+    text-align: center;
+    background-color: black;
+}
+
+.bloco1{
+    width: 50vw;
+    height: 30vh;
+    margin: 2rem;
+    text-align: center;
+    background-color: black;
+}
+
+.links{
+display: flex;
+justify-content:center;
+margin: 0.1rem 0;
+font-size: 1.5rem;
+text-decoration: none;
+list-style: none;
+color: white;
+background-color: black;
+}
+
+.linksprincipal{
+    font-size: 1.8rem;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+.lista{
+    text-decoration: none;
+    list-style: none;
+}
+
+.minitexto{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    font-size: 1.5rem;
+    margin: 2rem auto;
+    color: white;
+    background-color: black;
+
+}
+
+p{
+    width: 80vw;
+    height: 5vh;
+ 
+}
+.blocodireito{
+    display:  flex;
+    width: 10vw;
+    height: 10vh;
+    background-color: black;
+}
+
+
+.bloco4{
+    width:20vw;
+    height: 35vh;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    margin: 6rem 20rem;
+
+}
+
+.containerredes{
+    width:10vw;
+    height: 35vh;
+
+}
+
+.baixarg{
+    width: 200%;
+    height: 25%;
+    margin-top: 1rem;
+}
+
+.baixara{
+    width: 200%;
+    height: 25%;
+    margin-top: 1rem;
+}
+
+.titulomobile{
+    width: 20vw;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.caixaplataforma{
+    display: flex;
+    justify-content: center;
+    width: 20vw;
+    height: 10vh;
+}
+
+.whats{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.face{
+    width: 20px;
+    height: 20px;
+}
+.insta{
+    width: 40px;
+    height: 20px;
+}
+.twitterx{
+    width: 40px;
+    height: 20px;
+    margin-right: 5px;
+
+}
+
+}
+
+
+@media (max-width: 500px) {
+     
+footer{
+    width: 100vw;
+    height: 170vh;
+    background-color: black;
+}
+
+.blocoprincipal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    height: 150vh;
+    margin: 0 auto;
+    background-color: black;
+    color: white; 
+}
+
+#bloco{
+    width: 60vw;
+    height: 30vh;
+    margin: 2rem;
+    text-align: center;
+    background-color: black;
+}
+
+.bloco1{
+    width: 60vw;
+    height: 30vh;
+    margin: 2rem;
+    text-align: center;
+    background-color: black;
+}
+
+.links{
+display: flex;
+justify-content:center;
+margin: 0.1rem 0;
+font-size: 1.5rem;
+text-decoration: none;
+list-style: none;
+color: white;
+background-color: black;
+}
+
+.linksprincipal{
+    font-size: 1.8rem;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+.lista{
+    text-decoration: none;
+    list-style: none;
+}
+
+.minitexto{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    font-size: 1.5rem;
+    margin: 0 auto;
+    color: white;
+    background-color: black;
+
+}
+
+p{
+    width: 80vw;
+    height: 5vh;
+ 
+}
+.blocodireito{
+    display:  flex;
+    width: 10vw;
+    height: 10vh;
+    background-color: black;
+}
+
+
+.bloco4{
+    width:20vw;
+    height: 35vh;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    margin: 6rem 20rem;
+
+}
+
+.containerredes{
+    width:50%;}
+
+.baixarg{
+    width: 200%;
+    height: 25%;
+}
+
+.baixara{
+    width: 200%;
+    height: 25%;
+    margin-top: 1rem;
+}
+
+.titulomobile{
+    display:flex ;
+    width: 20vw;
+    font-size: 1.5rem;
+}
+
+.caixaplataforma{
+    display: flex;
+    justify-content: center;
+    width: 20vw;
+    height: 10vh;
+}
+
+.whats{
+    width: 20px;
+    height: 20px;
+}
+
+.face{
+    width: 20px;
+    height: 20px;
+}
+.insta{
+    width: 40px;
+    height: 20px;
+}
+.twitterx{
+    width: 40px;
+    height: 20px;
+
+}
+
+}

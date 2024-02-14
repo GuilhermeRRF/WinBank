@@ -1,0 +1,464 @@
+.ContainerPrincipal {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 300px;
+  background-color: #fcfafa;
+}
+
+.TituloAjudaPrincipal {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  width: 60vw;
+  height: 250px;
+  text-align: center;
+}
+
+.TituloAjuda {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  height: 60px;
+  margin: 70px 0px;
+  text-align: center;
+  font-size: 4.5rem;
+  color: rgb(24, 161, 11);
+}
+
+.LadoEsquerdo {
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+  width: 60vw;
+  height: 300px;
+}
+
+.BarraPesquisaPrincipal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  height: 35px;
+}
+
+.BarraPesquisa {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  height: 40px;
+  border-radius: 20px;
+  background-color: rgb(25, 24, 26);
+}
+
+.BotaoPesquisar {
+  height: 40px;
+  border-radius: 10px;
+  background-color: rgb(25, 24, 26);
+}
+
+.IconeLupa {
+  width: 35px;
+  height: 35px;
+}
+
+.SearchInput {
+  width: 100%;
+  padding-left: 10px;
+  border-radius: 10px;
+}
+
+input::placeholder,
+textarea::placeholder {
+  font-size: 1.5rem; /* Ajuste o tamanho da fonte conforme necessário */
+  color: #999; /* Cor do texto do placeholder */
+  font-family: Arial, sans-serif; /* Ajuste a família da fonte conforme necessário */
+}
+
+input,
+textarea {
+  font-size: 1.5rem; /* Define o tamanho do texto inserido pelo usuário */
+}
+
+.LadoDireito {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  width: 40vw;
+}
+
+.ImgAtendente {
+  width: 250px;
+  height: 250px;
+}
+
+.ContainerCaixa {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 400px;
+  background-color: #fcfafa;
+
+}
+
+.caixa {
+  width: 25%;
+  height: 250px;
+  margin-left: 20px;
+  border-radius: 10px;
+  background-color: rgba(175, 175, 175, 0.212);
+}
+
+.Icone {
+  width: 35px;
+  height: 35px;
+  margin-top: 40px;
+  margin-left: 30px;
+}
+
+.Titulo {
+  width: 80%;
+  height: 20px;
+  margin-top: 20px;
+  margin-left: 30px;
+  font-size: 2rem;
+  font-weight: bold;
+  color: rgb(17, 172, 17);
+}
+
+.Texto {
+  width: 80%;
+  height: 20px;
+  margin-top: 20px;
+  margin-left: 30px;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.MiniTexto {
+  width: 80%;
+  height: 20px;
+  margin-top: 35px;
+  margin-left: 30px;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.link{
+  list-style: none;
+  text-decoration: none;
+  color: black;
+}
+
+
+@media (max-width:769px){
+
+
+
+  .ContainerPrincipal {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    height: 500px;
+    margin-top: 80px;
+    background-color: #fcfafa;
+  }
+  
+  .TituloAjudaPrincipal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .TituloAjuda {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    font-size: 5rem;
+    color: rgb(24, 161, 11);
+  }
+  
+  .LadoEsquerdo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 300px;
+  }
+  
+  .BarraPesquisaPrincipal {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+  }
+  
+  .BarraPesquisa {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgb(25, 24, 26);
+  }
+  
+  
+  .LadoDireito {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .ImgAtendente {
+    width: 250px;
+    height: 250px;
+  }
+  
+  .ContainerCaixa {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 900px;
+  
+  }
+  
+  .caixa {
+    width: 80%;
+    height: 250px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: rgba(175, 175, 175, 0.212);
+  }
+
+  
+.Titulo {
+  width: 80%;
+  height: 20px;
+  margin-top: 20px;
+  margin-left: 30px;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: rgb(17, 172, 17);
+}
+
+.Texto {
+  width: 80%;
+  height: 20px;
+  margin-top: 20px;
+  margin-left: 30px;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.MiniTexto {
+  width: 80%;
+  height: 20px;
+  margin-top: 35px;
+  margin-left: 30px;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.link{
+  list-style: none;
+  text-decoration: none;
+  color: black;
+  font-size: 2rem;
+
+}
+  
+}
+
+
+@media (max-width:769px){
+
+  .TituloAjuda {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    font-size: 3.5rem;
+    color: rgb(24, 161, 11);
+  }
+  
+  .caixa {
+    width: 60%;
+    height: 250px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: rgba(175, 175, 175, 0.212);
+  }
+
+  .Texto {
+    width: 80%;
+    height: 20px;
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+  
+  .MiniTexto {
+    width: 80%;
+    height: 20px;
+    margin-top: 35px;
+    margin-left: 30px;
+    font-size: 1.8rem;
+    font-weight: 500;
+  }
+  
+  .link{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    font-size: 1.8rem;
+  
+  }
+  
+}
+
+
+@media (max-width:769px){
+
+  .caixa {
+    width: 80%;
+    height: 250px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: rgba(175, 175, 175, 0.212);
+  }
+
+  .Texto {
+    width: 80%;
+    height: 20px;
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .MiniTexto {
+    width: 80%;
+    height: 20px;
+    margin-top: 35px;
+    margin-left: 30px;
+    font-size: 2rem;
+    font-weight: 500;
+  }
+  
+  .link{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    font-size: 2rem;
+  
+  }
+}
+
+
+
+@media (max-width:769px){
+
+  .TituloAjuda {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    font-size: 3.5rem;
+    color: rgb(24, 161, 11);
+  }
+  
+  .caixa {
+    width: 60%;
+    height: 250px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: rgba(175, 175, 175, 0.212);
+  }
+
+  .Texto {
+    width: 80%;
+    height: 20px;
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+  
+  .MiniTexto {
+    width: 80%;
+    height: 20px;
+    margin-top: 35px;
+    margin-left: 30px;
+    font-size: 1.8rem;
+    font-weight: 500;
+  }
+  
+  .link{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    font-size: 1.8rem;
+  
+  }
+  
+}
+
+
+@media (max-width:480px){
+
+  .caixa {
+    width: 80%;
+    height: 250px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: rgba(175, 175, 175, 0.212);
+  }
+
+  .Texto {
+    width: 80%;
+    height: 20px;
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .MiniTexto {
+    width: 80%;
+    height: 20px;
+    margin-top: 35px;
+    margin-left: 30px;
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+  
+  .link{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+  
+  }
+}
