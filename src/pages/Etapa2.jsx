@@ -52,14 +52,22 @@ function Etapa2() {
                 name="termoPrivacidade"
               />
               Aceito receber mensagens com informações do WinBank no Whatsapp.
-            </label>
+            </label>            
+            <div className={styles.BotaoFormularioPrincipal}>
+            <button className={styles.BotaoFormulario} type="submit">Enviar</button>
+            </div>
           </form>
         </section>
 
         <aside className={styles.ContainerEtapaPrincipal}>
           <div>
+          
             <div className={styles.ContainerEtapa}>
-              <img src={Numero2} alt="primeira etapa" />
+            <p className={styles.MiniTextoEtapa}>
+                Criando conta para logar na plataforma, você pode logar
+                colocando o CPF ao inves do Email
+              </p>
+              <img className={styles.ImgEtapa} src={Numero2} alt="primeira etapa" />
             </div>
 
             <div className={styles.ContainerEclipse}>

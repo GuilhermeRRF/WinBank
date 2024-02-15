@@ -47,16 +47,22 @@ function CriarConta() {
               pessoais e dou meu consentimento, quando aplicavel, conforme
               descrita nesta Politica de Privacidade.
             </label>
+            <Link to="/etapa2" href="#">
 
             <div className={styles.BotaoFormularioPrincipal}>
             <button className={styles.BotaoFormulario} type="submit">Enviar</button>
             </div>
+            </Link>
+
           </form>
         </section>
 
         <aside className={styles.ContainerEtapaPrincipal}>
-          <div>
             <div className={styles.ContainerEtapa}>
+            <p className={styles.MiniTextoEtapa}>
+                Complete os campos ao lado para pedir sua Conta e Cartão de
+                crédito
+              </p>
               <img className={styles.ImgEtapa} src={Numero1} alt="primeira etapa" />
             </div>
 
@@ -78,7 +84,6 @@ function CriarConta() {
               </button>
               </Link>
             </div>
-          </div>
         </aside>
       </main>
     </>
