@@ -52,10 +52,14 @@ function Etapa2() {
                 name="termoPrivacidade"
               />
               Aceito receber mensagens com informações do WinBank no Whatsapp.
-            </label>            
+            </label>      
+            <Link to="/etapa3" href="#">
+      
             <div className={styles.BotaoFormularioPrincipal}>
             <button className={styles.BotaoFormulario} type="submit">Enviar</button>
             </div>
+            </Link>
+
           </form>
         </section>
 
@@ -82,7 +86,7 @@ function Etapa2() {
                 alt="eclipse verde com bontão enviar"
               />
 
-              <Link to="/etapa2" href="#">
+              <Link to="/etapa3" href="#">
                 <button className={styles.botao} type="submit">
                   Enviar
                 </button>

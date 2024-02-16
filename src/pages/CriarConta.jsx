@@ -72,12 +72,13 @@ function CriarConta() {
                 crédito
               </p>
 
+            <div className={styles.EclipseVerdePai}>
               <img
                 className={styles.EclipseVerde}
                 src={Eclipse}
                 alt="eclipse verde com bontão enviar"
               />
-
+            </div>
               <Link to="/etapa2" href="#">
               <button className={styles.botao} type="submit">
                 Enviar               

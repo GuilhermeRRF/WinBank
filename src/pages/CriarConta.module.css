@@ -76,21 +76,31 @@
   height: 486px;
 }
 
+.EclipseVerdePai{
+  position: relative;
+}
+
 .EclipseVerde {
-  width: 620px;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  width: 630px;
   height: 400px;
   background-size: cover;
   overflow: hidden;
 }
 
+/*arrumar o position depois*/
+
 .TextoEtapa {
   position: absolute;
   bottom: 0%;
-  left: 85%;
-  transform: translate(-85%,-0%);/*x,y*/
+  right: 70px;
+  transform: translate(-70px,-0px);/*x,y*/
   width: 30%;
   height: 100px;
   font-size: 3rem;
+  z-index: 1;
 }
 
 .botao {
