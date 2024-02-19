@@ -2,11 +2,15 @@ import styles from "../components/header.module.css";
 import logopequeno2 from "../imgs/logopequeno2.png";
 import { Link } from "react-router-dom";
 import iconeusuario from "../imgs/user.png";
+import UsuarioIcons from "../imgs/UsuarioIconsB.png"
+
 function Header() {
   return (
     <>
       <nav className={styles.NavPrincipal}>
         <header className={styles.headerprincipal}>
+
+        
         <Link to="/">
           <div className={styles.menu}>
               <img className={styles.logopequeno} src={logopequeno2}></img>
@@ -14,6 +18,17 @@ function Header() {
           </Link>
 
           <ul className={styles.lista}>
+
+            <li>
+
+            <Link className={styles.linkloginresponsivo} to="/login">
+          <div className={styles.iconeusuarioresposivo}>
+            <img className={styles.userresponsivo} src={UsuarioIcons}></img>
+          </div>
+          </Link>
+
+            </li>
+
             <li>
               <Link className={styles.link} to="/" href="#">
                 Inicio
