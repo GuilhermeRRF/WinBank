@@ -12,10 +12,42 @@ import Personalização from "../imgs/IconePersonalização.png";
 import Inovador from "../imgs/IconeInovador.png";
 import Positivo from "../imgs/ImgPositiva.png";
 import { Link } from "react-router-dom";
+import { useLocation } from 'react-router-dom';
+import React, { useEffect } from 'react';
 
 
 
-function Inicio() {
+function Inicio() {/*usado para conseguir usar a tag ancora pra rolar ate a seção*/
+
+   const location = useLocation();
+  
+    useEffect(() => {
+      const scrollToSection = () => {
+        const hash = location.hash;
+        if (hash) {
+          const id = hash.replace('#', '');
+          const element = document.getElementById(id);
+          if (element) {
+            element.scrollIntoView({ behavior: 'smooth' });
+          }
+        }
+      };
+  
+      // Rola para a seção na montagem inicial
+      scrollToSection();
+  
+      // Adiciona o ouvinte para mudanças no hash
+      window.addEventListener('hashchange', scrollToSection, false);
+  
+      // Limpa o ouvinte quando o componente é desmontado
+      return () => {
+        window.removeEventListener('hashchange', scrollToSection, false);
+      };
+    }, [location]); // Dependência no objeto location para reagir a mudanças no hash
+  
+    // Resto do seu componente...
+
+  
   return (
     <>
 
@@ -117,7 +149,7 @@ function Inicio() {
 
       {/*quarta rolagem*/}
 
-      <section className={styles.SobreWinBack}>
+      <section id="secao4" className={styles.SobreWinBack}>
         <div className={styles.LogoMarrom}>
           <img className={styles.LogoMarromImg} src={LogoMarrom} alt="logo winbank" />
         </div>

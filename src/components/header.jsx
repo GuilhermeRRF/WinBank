@@ -5,6 +5,7 @@ import iconeusuario from "../imgs/user.png";
 import UsuarioIcons from "../imgs/UsuarioIconsB.png"
 
 function Header() {
+  
   return (
     <>
       <nav className={styles.NavPrincipal}>
@@ -35,7 +36,7 @@ function Header() {
               </Link>
             </li>
             <li>
-              <Link className={styles.link} to={"#secao2"}  href="#">
+              <Link className={styles.link} to={{ pathname: "/", hash: "#secao2" }}>
                 Conta
               </Link>
             </li>
@@ -50,7 +51,7 @@ function Header() {
               </Link>
             </li>
             <li>
-              <Link className={styles.link} to="/sobrenos" href="#">
+              <Link className={styles.link} to={{ pathname: "/", hash: "#secao4" }}>
                 Sobre nós
               </Link>
             </li>
