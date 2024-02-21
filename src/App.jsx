@@ -1,4 +1,4 @@
-import Headerprincipal from "../src/components/header";
+import Layout from './components/Layout'; // Ajuste o caminho se necessário
 import { Routes, Route } from "react-router-dom";
 import "./App.css";
 import Inicio from "./home/Inicio";
@@ -13,17 +13,15 @@ import Etapa3 from "./pages/Etapa3";
 function App() {
   return (
     <>
-      <Headerprincipal />
       <Routes>
-        <Route path="/" element={<Inicio />} />
-        <Route path="/novidades" element={<Novidades />} />
-        <Route path="/ajuda" element={<Ajuda />} />
-        <Route path="/criarconta" element={<CriarConta />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="/etapa2" element={<Etapa2 />} />
-        <Route path="/etapa3" element={<Etapa3 />} />
+      <Route path="/" element={<Layout><Inicio /></Layout>} />
+        <Route path="/novidades" element={<Layout><Novidades /></Layout>} />
+        <Route path="/ajuda" element={<Layout><Ajuda /></Layout>} />
+        <Route path="/criarconta" element={<Layout><CriarConta /></Layout>} />
+        <Route path="/login" element={<Layout><Login /></Layout>} />
+        <Route path="/etapa2" element={<Layout><Etapa2 /></Layout>} />
+        <Route path="/etapa3" element={<Layout><Etapa3 /></Layout>} />
       </Routes>
-      <Footer />
     </>
   );
 }
