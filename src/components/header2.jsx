@@ -1,10 +1,10 @@
-import styles from "../components/Header2.module.css";
+import styles from "../components/header2.module.css";
 import logopequeno2 from "../imgs/logopequeno2.png";
 import { Link } from "react-router-dom";
 import iconeusuario from "../imgs/user.png";
 import UsuarioIcons from "../imgs/UsuarioIconsB.png"
 
-function Header2() {
+function Header() {
   
   return (
     <>
@@ -68,4 +68,4 @@ function Header2() {
   );
 }
 
-export default Header2;
+export default Header;

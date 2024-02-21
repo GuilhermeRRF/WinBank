@@ -55,13 +55,14 @@ function Header() {
                 Sobre nós
               </Link>
             </li>
+            
           </ul>
-
-          <Link to="/login">
-          <div className={styles.iconeusuario}>
-            <img className={styles.user} src={iconeusuario}></img>
+          <Link className={styles.LinkFazerLogin} to="/perfilpessoal">
+          <div className={styles.BotaoLoginPrincipal}>
+             <button className={styles.BotaoLogin} > Fazer Login </button>
           </div>
           </Link>
+
         </header>
       </nav>
     </>
