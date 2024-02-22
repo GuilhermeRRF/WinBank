@@ -1,3 +1,7 @@
+
+/*começo perzonalize crtão*/
+
+
 .ContainerPersonalizePrincipal{
     display: flex;
     flex-direction: row;
@@ -63,6 +67,14 @@
     margin-left: 20px;
 }
 
+.TresCartaoBaixoPrincipal{
+    display: none;
+}
+
+.TresCartaoBaixo{
+    display: none;
+}
+/*fim perzonalize crtão*/
 .Fundo{
     display: flex;
     height: 100vh;
@@ -164,6 +176,72 @@
 
 @media (max-width:780px) {
 
+/*começo perzonalize crtão*/
+
+.ContainerPersonalizePrincipal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 1200px;
+    background-color: rgb(17, 17, 17);
+}
+
+.PerzonalizePrincipal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 300px;
+}
+
+.TextoPerzonalizePrincipal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+
+}
+
+.TextoPerzonalize{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 300px;
+    font-size: 5rem;
+    text-align: center;
+    color: #51a342;
+    margin-left: 0px;
+}
+
+.CartaoDireitoPrincipal{
+    display: none;
+    justify-content:  center;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+}
+
+.imgCartaoDireito{
+    width: 450px;
+}
+
+.CartaoEsquerdoPrincipal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 750px;
+}
+
+.ImgCartaoEsquerdo{
+    width: 450px;
+    margin-left:0px ;
+}
+/*fim perzonalize crtão*/
  
 
 .Fundo{
@@ -226,6 +304,75 @@
 }
 
 @media (max-width:470px) {
+
+    
+/*começo perzonalize crtão*/
+
+.ContainerPersonalizePrincipal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 1200px;
+    background-color: rgb(17, 17, 17);
+}
+
+.PerzonalizePrincipal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 300px;
+}
+
+.TextoPerzonalizePrincipal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+    margin-right: 0px;
+}
+
+.TextoPerzonalize{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 300px;
+    font-size: 5rem;
+    text-align: center;
+    color: #51a342;
+    margin-left: 0px;
+}
+
+.CartaoDireitoPrincipal{
+    display: none;
+    justify-content:  center;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+}
+
+.imgCartaoDireito{
+    width: 450px;
+}
+
+.CartaoEsquerdoPrincipal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 750px;
+}
+
+.ImgCartaoEsquerdo{
+    width: 450px;
+    margin-left:0px ;
+}
+/*fim perzonalize crtão*/
+ 
 
     .ImgCelular{
         width: 150%;
@@ -367,6 +514,86 @@
 
     @media (max-width:510px) {
 
+        
+/*começo perzonalize crtão*/
+
+.ContainerPersonalizePrincipal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 850px;
+    background-color: rgb(17, 17, 17);
+}
+
+.PerzonalizePrincipal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 300px;
+}
+
+.TextoPerzonalizePrincipal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+    margin-right: 0px;
+}
+
+.TextoPerzonalize{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 300px;
+    font-size: 5rem;
+    text-align: center;
+    color: #51a342;
+    margin-left: 0px;
+}
+
+.CartaoDireitoPrincipal{
+    display: none;
+    justify-content:  center;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+}
+
+.imgCartaoDireito{
+    width: 450px;
+}
+
+.CartaoEsquerdoPrincipal{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    width: 100%;
+    height:550px;
+}
+
+.ImgCartaoEsquerdo{
+    display: none;
+    width: 450px;
+    margin-left:0px ;
+}
+
+.TresCartaoBaixoPrincipal{
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+
+.TresCartaoBaixo{
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+/*fim perzonalize crtão*/
+ 
+
  
         .QrcodeWinbank{
             display: flex;
@@ -418,3 +645,89 @@
         
 
     }    
+
+
+    @media (max-width:430px) {
+
+       
+/*começo perzonalize crtão*/
+
+.ContainerPersonalizePrincipal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 850px;
+    background-color: rgb(17, 17, 17);
+}
+
+.PerzonalizePrincipal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 300px;
+}
+
+.TextoPerzonalizePrincipal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+    margin-right: 0px;
+}
+
+.TextoPerzonalize{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 300px;
+    font-size: 3.5rem;
+    text-align: center;
+    color: #51a342;
+    margin-left: 0px;
+}
+
+.CartaoDireitoPrincipal{
+    display: none;
+    justify-content:  center;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+}
+
+.imgCartaoDireito{
+    width: 450px;
+}
+
+.CartaoEsquerdoPrincipal{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    width: 100%;
+    height:550px;
+}
+
+.ImgCartaoEsquerdo{
+    display: none;
+    width: 450px;
+    margin-left:0px ;
+}
+
+.TresCartaoBaixoPrincipal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.TresCartaoBaixo{
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+
+/*fim perzonalize cartão*/
+ 
+}

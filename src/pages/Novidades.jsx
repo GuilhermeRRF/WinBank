@@ -3,7 +3,7 @@ import celular from "../imgs/CelularPlataformas.png";
 import Qrcode from "../imgs/QrcodeWinbank.png";
 import CartaoDireito from "../imgs/CartoesDireito.png";
 import CartaoEsquerdo from "../imgs/CartoesEsquerdo.png";
-
+import TresCartaoBaixo from "../imgs/TresCartaobaixo.png";
 
 function Novidades() {
   return (
@@ -20,7 +20,12 @@ function Novidades() {
         </section>
 
         <aside className={styles.CartaoEsquerdoPrincipal}>
-            <div></div>
+
+            <div className={styles.TresCartaoBaixoPrincipal}>
+
+                <img className={styles.TresCartaoBaixo} src={TresCartaoBaixo} alt="imagem de tres cartões um em baixo do outro" />
+
+            </div>
 
             <div>
                 <img className={styles.ImgCartaoEsquerdo} src={CartaoDireito} alt="" />

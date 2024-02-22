@@ -20,7 +20,7 @@ function Header() {
 
           <ul className={styles.lista}>
 
-            <li>
+            <li className={styles.LiResponsiva}>
 
             <Link className={styles.linkloginresponsivo} to="/login">
           <div className={styles.iconeusuarioresposivo}>
