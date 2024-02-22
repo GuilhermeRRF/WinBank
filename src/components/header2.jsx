@@ -57,7 +57,7 @@ function Header() {
             </li>
           </ul>
 
-          <Link to="/login">
+          <Link to="/perfilpessoal">
           <div className={styles.iconeusuario}>
             <img className={styles.user} src={iconeusuario}></img>
           </div>

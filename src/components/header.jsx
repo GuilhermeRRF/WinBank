@@ -57,7 +57,7 @@ function Header() {
             </li>
             
           </ul>
-          <Link className={styles.LinkFazerLogin} to="/perfilpessoal">
+          <Link className={styles.LinkFazerLogin} to="/login">
           <div className={styles.BotaoLoginPrincipal}>
              <button className={styles.BotaoLogin} > Fazer Login </button>
           </div>
