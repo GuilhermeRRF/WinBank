@@ -3,7 +3,7 @@ import celular from "../imgs/CelularPlataformas.png";
 import Qrcode from "../imgs/QrcodeWinbank.png";
 import CartaoDireito from "../imgs/CartoesDireito.png";
 import CartaoEsquerdo from "../imgs/CartoesEsquerdo.png";
-import TresCartaoBaixo from "../imgs/TresCartaobaixo.png";
+import TresCartaoBaixo from "../imgs/CartaoBaixo.png";
 
 function Novidades() {
   return (
