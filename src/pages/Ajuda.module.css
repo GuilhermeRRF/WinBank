@@ -342,6 +342,7 @@ textarea {
     width: 80%;
     height: 250px;
     margin-top: 20px;
+    margin-right: 20px;
     border-radius: 10px;
     background-color: rgba(175, 175, 175, 0.212);
   }
@@ -432,6 +433,7 @@ textarea {
     width: 80%;
     height: 250px;
     margin-top: 20px;
+    margin-right: 20px;
     border-radius: 10px;
     background-color: rgba(175, 175, 175, 0.212);
   }
