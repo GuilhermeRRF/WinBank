@@ -1,5 +1,7 @@
 import styles from "../pages/Login.module.css";
 import LogoGrande from "../imgs/LogoGrande.png";
+import { Link } from "react-router-dom";
+
 
 function Login() {
 
@@ -8,13 +10,17 @@ function Login() {
   return (
     <>
       <main className={styles.ContainerPrincipal}>
+
         <section className={styles.LadoDireito}>
+        <Link to="/">
           <img
             className={styles.ImgLogoGrande}
             src={LogoGrande}
             alt="logo grande winbank"
           />
+          </Link>
         </section>
+
 
         <aside className={styles.LadoEsquerdo}>
 

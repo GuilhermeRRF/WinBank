@@ -1,8 +1,96 @@
 
 
-.Pessoal{
+.PaginaPessoalPrincipal{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+    font-size: 5rem;
+}
+
+.FotoPerfilPrincipal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 500px;
+}
+
+.FotoPerfil{
+width: 250px;
+height: 250px;
+}
+
+.PerfilDadosPessoais{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    height: 250px;
+    font-size: 2rem;
+}
+
+.TituloPerfilPrincipal{
+    display: flex;
+    width: 100%;
+    height: 100px;
+}
+
+.TituloPerfil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5.5rem;
+    width: 100%;
+    height: 100px;
+
+}
+.MiniDadosPerfilPrincipal{
+    display: flex;
+    width: 57%;
+    height: 50px;
+}
+
+.MiniDadosPerfil{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 50px;
+}
+
+.MiniDadosPerfil2{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 50px;
+}
+
+
+
+.Perfil{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 25px;
+}
+
+.Perfil2{
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  width: 100%;
+  height: 25px;
+}
+
+.linha{
+    width: 100%;
+    height: 5px;
+    background-color: greenyellow;
+}
+
+.PaginaCadastralPrincipal{
     width: 100%;
     height: 500px;
     font-size: 5rem;
-    background-color: aqua;
+    background-color: rgb(238, 68, 26);
 }
