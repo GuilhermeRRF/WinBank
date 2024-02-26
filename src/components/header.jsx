@@ -22,7 +22,7 @@ function Header() {
 
             <li className={styles.LiResponsiva}>
 
-            <Link className={styles.linkloginresponsivo} to="/login">
+            <Link className={styles.linkloginresponsivo} to="/perfilpessoal" href="#">
           <div className={styles.iconeusuarioresposivo}>
             <img className={styles.userresponsivo} src={UsuarioIcons}></img>
           </div>
