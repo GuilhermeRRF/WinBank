@@ -6,6 +6,7 @@
     width: 100%;
     height: 400px;
     font-size: 5rem;
+    background-color: #cccccc;
 }
 
 .FotoPerfilPrincipal{
@@ -85,12 +86,145 @@ height: 250px;
 .linha{
     width: 100%;
     height: 5px;
-    background-color: greenyellow;
+    background-color: rgb(104, 231, 87);
 }
 
 .PaginaCadastralPrincipal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
-    height: 500px;
+    height: 300px;
     font-size: 5rem;
-    background-color: rgb(238, 68, 26);
+    background-color: #cccccc;
+}
+
+.ContainerFormulario{
+    display: flex;
+    justify-content: baseline ;
+    align-items: end;
+    flex-direction: column;
+    width: 80%;
+    height:300px;  
+    font-size: 3rem;
+    background-color: #cccccc;
+}
+
+.TituloPrincipal{
+    display: flex;
+    justify-content: baseline;
+    align-items: end;
+    width: 50%;
+    height: 80px;
+    background-color: #cccccc;
+}
+
+.Titulo{
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    font-size: 3rem;
+    padding-left: 50px;
+    background-color: #cccccc;
+
+}
+
+.ContainerFormulario2{
+    display: flex;
+    justify-content: baseline;
+    flex-direction: column;
+    align-items: baseline;
+    width: 80%;
+    height: 300px;
+    font-size: 2rem;
+}
+
+.FormularioDireito{
+    display: flex;
+    justify-content: end;
+    align-items: baseline;
+    width: 50%;
+    height: 300px;
+    background-color: #cccccc;
+    margin-right: 20px;
+}
+
+.campo{
+    width: 90%;
+    height: 50px;
+    padding-left: 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: #f0f0f0; /* Cor de fundo clara */
+    color: #2b2929; /* Cor do texto cinza escuro */
+    border: 1px solid #ccc; /* Borda cinza claro */
+}
+
+.campo:focus {
+    outline: none; /* Remove o contorno padrão que fica do input */
+    background-color: #f8f8f8; /* Cor de fundo um pouco mais clara */
+    border: 1px solid #ddd; /* Borda mais clara */
+}
+
+.FormularioEsquerdo{
+    display: flex;
+    justify-content: baseline;
+    align-items: baseline;
+    width: 50%;
+    height: 300px;
+    margin-left: 20px;
+}
+
+.BotaoInferior{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100px;
+}
+
+.BotaoFormulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 50px;
+}
+
+.BotaoInferior{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    padding: 20px;
+    background-color: #cccccc;
+}
+
+.BotaoFormulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 7%;
+    height: 40px;
+    margin-left: 20px;
+    border-radius: 10px;
+    background-color:  rgb(52, 175, 83); /* Cor de fundo clara */
+    color: #f7f5f5; /* Cor do texto cinza escuro */
+    border: 1px solid  rgb(81, 235, 120); /* Borda cinza claro */
+}
+
+.BotaoFormulario2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+    height: 40px;
+    margin-left: 20px;
+    border-radius: 10px;
+    background-color: #514343; /* Cor de fundo clara */
+    color: #e9e9e9; /* Cor do texto cinza escuro */
+    border: 1px solid #beaeae; /* Borda cinza claro */
 }
