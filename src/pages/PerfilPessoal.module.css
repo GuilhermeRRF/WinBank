@@ -228,3 +228,743 @@ height: 250px;
     color: #e9e9e9; /* Cor do texto cinza escuro */
     border: 1px solid #beaeae; /* Borda cinza claro */
 }
+
+
+
+@media (max-width:770px){
+
+
+    .PaginaPessoalPrincipal{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 500px;
+        font-size: 5rem;
+    }
+    
+    .FotoPerfilPrincipal{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40%;
+        height: 500px;
+    }
+    
+    .FotoPerfil{
+    width: 250px;
+    height: 250px;
+    }
+    
+    .PerfilDadosPessoais{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+        height: 350px;
+        font-size: 2rem;
+    }
+    
+    .TituloPerfilPrincipal{
+        display: flex;
+        width: 100%;
+        height: 100px;
+    }
+    
+    .TituloPerfil{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 5.5rem;
+        width: 100%;
+        height: 100px;
+    
+    }
+    .MiniDadosPerfilPrincipal{
+        display: flex;
+        width: 80%;
+        height: 50px;
+    }
+    
+   
+    }
+    
+
+
+
+@media (max-width:700px){
+
+
+    .PaginaPessoalPrincipal{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 500px;
+        font-size: 5rem;
+    }
+    
+    .FotoPerfilPrincipal{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40%;
+        height: 500px;
+    }
+    
+    .FotoPerfil{
+    width: 250px;
+    height: 250px;
+    }
+    
+    .PerfilDadosPessoais{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 350px;
+        font-size: 2rem;
+    }
+    
+    .TituloPerfilPrincipal{
+        display: flex;
+        width: 100%;
+        height: 100px;
+    }
+    
+    .TituloPerfil{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 4.5rem;
+        width: 100%;
+        height: 100px;
+    
+    }
+    .MiniDadosPerfilPrincipal{
+        display: flex;
+        width: 80%;
+        height: 50px;
+    }
+
+    .PerfilDadosPessoais{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        height: 300px;
+        font-size: 2rem;
+    }
+    
+    .Perfil{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 50px;
+        text-align: center;
+      }
+      
+      .Perfil2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 50px;
+        text-align: center;
+      }
+    
+   
+    }
+    
+
+
+
+
+
+@media (max-width:550px){
+
+
+    .PaginaPessoalPrincipal{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 600px;
+        font-size: 5rem;
+        background-color: #cccccc;
+    }
+    
+    .FotoPerfilPrincipal{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 55%;
+        height: 400px;
+    }
+    
+    .FotoPerfil{
+    width: 250px;
+    height: 250px;
+    }
+    
+    .PerfilDadosPessoais{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        height: 300px;
+        font-size: 2rem;
+    }
+    
+    .TituloPerfilPrincipal{
+        display: flex;
+        width: 100%;
+        height: 100px;
+    }
+    
+    .TituloPerfil{
+        display: flex;
+        justify-content: center;
+        font-size: 4rem;
+        width: 100%;
+        height: 100px;
+    
+    }
+    .MiniDadosPerfilPrincipal{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        width: 80%;
+        height: 150px;
+    }
+    
+    .MiniDadosPerfil{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 50px;
+        text-align: center;
+    }
+    
+    .MiniDadosPerfil2{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 50px;
+    }
+    
+    
+    
+    .Perfil{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      height: 25px;
+      text-align: center;
+    }
+    
+    .Perfil2{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 25px;
+      text-align: center;
+    }
+    
+    .linha{
+        width: 100%;
+        height: 5px;
+        background-color: rgb(104, 231, 87);
+    }
+    
+    .PaginaCadastralPrincipal{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 600px;
+        font-size: 5rem;
+        background-color: #cccccc;
+    }
+    
+    .ContainerFormulario{
+        display: flex;
+        justify-content: center ;
+        align-items: center;
+        flex-direction: column;
+        width: 80%;
+        height:300px;  
+        font-size: 3rem;
+        background-color: #cccccc;
+    }
+    
+    .TituloPrincipal{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        height: 80px;
+        background-color: #cccccc;
+    }
+    
+    .Titulo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100px;
+        font-size: 3rem;
+        padding-left: 0px;
+        background-color: #cccccc;
+    
+    }
+    
+    .ContainerFormulario2{
+        display: flex;
+        justify-content: baseline;
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+        height: 300px;
+        font-size: 2rem;
+
+    }
+    
+    .FormularioDireito{
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+        width: 80%;
+        height: 300px;
+        background-color: #cccccc;
+        margin-right: 0px;
+    }
+    
+    .campo{
+        width: 90%;
+        height: 50px;
+        padding-left: 20px;
+        margin-top: 10px;
+        border-radius: 10px;
+        background-color: #f0f0f0; /* Cor de fundo clara */
+        color: #2b2929; /* Cor do texto cinza escuro */
+        border: 1px solid #ccc; /* Borda cinza claro */
+    }
+    
+    .campo:focus {
+        outline: none; /* Remove o contorno padrão que fica do input */
+        background-color: #f8f8f8; /* Cor de fundo um pouco mais clara */
+        border: 1px solid #ddd; /* Borda mais clara */
+    }
+    
+    .FormularioEsquerdo{
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+        width: 80%;
+        height: 300px;
+        margin-left: 0px;
+    }
+    
+    .BotaoInferior{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        height: 100px;
+    }
+    
+    .BotaoFormulario{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        height: 50px;
+    }
+    
+    .BotaoInferior{
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        width: 100%;
+        height: 100px;
+        padding: 20px;
+        background-color: #cccccc;
+    }
+    
+    .BotaoFormulario{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 15%;
+        height: 40px;
+        margin-left: 20px;
+        border-radius: 10px;
+        background-color:  rgb(52, 175, 83); /* Cor de fundo clara */
+        color: #f7f5f5; /* Cor do texto cinza escuro */
+        border: 1px solid  rgb(81, 235, 120); /* Borda cinza claro */
+    }
+    
+    .BotaoFormulario2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 35%;
+        height: 40px;
+        margin-left: 20px;
+        border-radius: 10px;
+        background-color: #514343; /* Cor de fundo clara */
+        color: #e9e9e9; /* Cor do texto cinza escuro */
+        border: 1px solid #beaeae; /* Borda cinza claro */
+    }
+    
+
+}
+
+
+
+
+
+
+@media (max-width:550px){
+
+    .TituloPerfil{
+        display: flex;
+        justify-content: center;
+        font-size: 3.5rem;
+        width: 100%;
+        height: 100px;
+    
+    }
+
+}
+
+
+@media (max-width:450px){
+
+    .TituloPerfil{
+        display: flex;
+        justify-content: center;
+        font-size: 3.5rem;
+        width: 100%;
+        height: 100px;
+    
+    }
+    .FormularioDireito{
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+        width: 100%;
+        height: 300px;
+        background-color: #cccccc;
+        margin-right: 0px;
+    }
+
+    .FormularioEsquerdo{
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+        width: 100%;
+        height: 300px;
+        margin-left: 0px;
+    }
+
+
+}
+
+
+
+@media (max-width:400px){
+
+   
+    .PaginaPessoalPrincipal{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 550px;
+        font-size: 5rem;
+        background-color: #cccccc;
+    }
+    
+    .FotoPerfilPrincipal{
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        width: 55%;
+        height: 300px;
+    }
+    
+    .FotoPerfil{
+    width: 200px;
+    height: 200px;
+    }
+    
+    .PerfilDadosPessoais{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        height: 300px;
+        font-size: 2rem;
+    }
+    
+    .TituloPerfilPrincipal{
+        display: flex;
+        width: 100%;
+        height: 100px;
+    }
+    
+    .TituloPerfil{
+        display: flex;
+        justify-content: center;
+        font-size: 3rem;
+        width: 100%;
+        height: 100px;
+    }
+
+        .FormularioDireito{
+            display: flex;
+            justify-content: center;
+            align-items: baseline;
+            width: 100%;
+            height: 300px;
+            background-color: #cccccc;
+            margin-right: 0px;
+        }
+
+        .FormularioEsquerdo{
+            display: flex;
+            justify-content: center;
+            align-items: baseline;
+            width: 100%;
+            height: 300px;
+            margin-left: 0px;
+        }
+
+        .BotaoInferior{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 50%;
+            height: 100px;
+        }
+        
+        .BotaoFormulario{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 50%;
+            height: 50px;
+        }
+        
+        .BotaoInferior{
+            display: flex;
+            justify-content: end;
+            align-items: center;
+            width: 100%;
+            height: 100px;
+            padding: 20px;
+            background-color: #cccccc;
+        }
+        
+        .BotaoFormulario{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 25%;
+            height: 40px;
+            margin-left: 20px;
+            border-radius: 10px;
+            background-color:  rgb(52, 175, 83); /* Cor de fundo clara */
+            color: #f7f5f5; /* Cor do texto cinza escuro */
+            border: 1px solid  rgb(81, 235, 120); /* Borda cinza claro */
+        }
+        
+        .BotaoFormulario2{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 50%;
+            height: 40px;
+            margin-left: 20px;
+            border-radius: 10px;
+            background-color: #514343; /* Cor de fundo clara */
+            color: #e9e9e9; /* Cor do texto cinza escuro */
+            border: 1px solid #beaeae; /* Borda cinza claro */
+        }
+        
+        
+    }
+
+
+    
+
+@media (max-width:360px){
+
+   
+    .PaginaPessoalPrincipal{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 550px;
+        font-size: 5rem;
+        background-color: #cccccc;
+    }
+    
+    .FotoPerfilPrincipal{
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        width: 55%;
+        height: 300px;
+    }
+    
+    .FotoPerfil{
+    width: 200px;
+    height: 200px;
+    }
+    
+    .PerfilDadosPessoais{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        height: 300px;
+        font-size: 2rem;
+    }
+    
+    .TituloPerfilPrincipal{
+        display: flex;
+        width: 100%;
+        height: 100px;
+    }
+    
+    .TituloPerfil{
+        display: flex;
+        justify-content: center;
+        font-size: 2.5rem;
+        width: 100%;
+        height: 100px;
+    }
+
+        .FormularioDireito{
+            display: flex;
+            justify-content: center;
+            align-items: baseline;
+            width: 100%;
+            height: 300px;
+            background-color: #cccccc;
+            margin-right: 0px;
+        }
+
+        .FormularioEsquerdo{
+            display: flex;
+            justify-content: center;
+            align-items: baseline;
+            width: 100%;
+            height: 300px;
+            margin-left: 0px;
+        }
+
+        .BotaoInferior{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 50%;
+            height: 100px;
+        }
+        
+        .BotaoFormulario{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 50%;
+            height: 50px;
+        }
+        
+        .BotaoInferior{
+            display: flex;
+            justify-content: end;
+            align-items: center;
+            width: 100%;
+            height: 100px;
+            padding: 20px;
+            background-color: #cccccc;
+        }
+        
+        .BotaoFormulario{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 30%;
+            height: 40px;
+            margin-left: 20px;
+            border-radius: 10px;
+            background-color:  rgb(52, 175, 83); /* Cor de fundo clara */
+            color: #f7f5f5; /* Cor do texto cinza escuro */
+            border: 1px solid  rgb(81, 235, 120); /* Borda cinza claro */
+        }
+        
+        .BotaoFormulario2{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 60%;
+            height: 40px;
+            margin-left: 20px;
+            border-radius: 10px;
+            background-color: #514343; /* Cor de fundo clara */
+            color: #e9e9e9; /* Cor do texto cinza escuro */
+            border: 1px solid #beaeae; /* Borda cinza claro */
+        }
+
+        .MiniDadosPerfilPrincipal{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-direction: column;
+            width: 100%;
+            height: 150px;
+        }
+        
+        .MiniDadosPerfil{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: 50px;
+            text-align: center;
+        }
+        
+        .MiniDadosPerfil2{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: 50px;
+        }
+        
+        
+        
+        .Perfil{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 100%;
+          height: 25px;
+          text-align: center;
+        }
+        
+        .Perfil2{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 100%;
+          height: 25px;
+          text-align: center;
+        }
+        
+        
+        
+    }
