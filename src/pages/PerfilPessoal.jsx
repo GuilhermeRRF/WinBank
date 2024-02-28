@@ -1,5 +1,6 @@
 import styles from "../pages/PerfilPessoal.module.css";
 import FotoPerfil from "../imgs/FotoPerfilPessoal.png";
+import { Link } from "react-router-dom";
 
 function PerfilPessoal() {
   return (
@@ -108,11 +109,15 @@ function PerfilPessoal() {
       
       <div className={styles.BotaoInferior}>
               <button className={styles.BotaoFormulario2} type="submit">
-              Alterar Informações
+                Alterar Informações
               </button>
+              
               <button className={styles.BotaoFormulario} type="submit">
-                Sair
+              <Link className={styles.LinkBotao}  to="/">
+                  Sair
+              </Link>
               </button>
+
             </div>
     </>
   );

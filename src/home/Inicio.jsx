@@ -89,9 +89,9 @@ function Inicio() {/*usado para conseguir usar a tag ancora pra rolar ate a seç
           </div>
 
           <div className={styles.TresCaixinhas}>
-            <div className={styles.caixas}>Conta Corrente</div>
-            <div className={styles.caixas}>Conta Poupança</div>
-            <div className={styles.caixas}>Conta Kids</div>
+            <div className={styles.caixas}> <Link className={styles.LinkBotao}  to="/novidades">Conta Corrente</Link></div>
+           <div className={styles.caixas}>  <Link className={styles.LinkBotao}  to="/novidades">Conta Poupança</Link></div>
+          <div className={styles.caixas}>  <Link className={styles.LinkBotao}  to="/novidades"> Conta Kids </Link></div>
           </div>
         </main>
 

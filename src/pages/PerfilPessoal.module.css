@@ -229,6 +229,16 @@ height: 250px;
     border: 1px solid #beaeae; /* Borda cinza claro */
 }
 
+.LinkBotao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+}
 
 
 @media (max-width:770px){

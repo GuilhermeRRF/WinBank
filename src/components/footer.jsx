@@ -5,6 +5,7 @@ import x from "../imgs/twitterx.png"
 import face from "../imgs/face.webp"
 import apple from "../imgs/baixarapple.png"
 import googleplay from "../imgs/baixargoogleplay.png"
+import { Link } from "react-router-dom";
 function Footer(){
     return(
 
@@ -15,10 +16,10 @@ function Footer(){
         <div  className={styles.bloco1}>
             
             <ul className={styles.lista}>
-             <li><a className={styles.linksprincipal} href="#">Winbank</a></li>
-             <li><a className={styles.links} href="#">Sobre nós </a></li>
-             <li><a className={styles.links} href="#">Carreira</a></li>
-             <li><a className={styles.links}href="#">Contato</a></li>
+             <li><Link className={styles.linksprincipal} to={{ pathname: "/", hash: "#secao4" }} href="#">Winbank</Link></li>
+             <li><Link className={styles.links} to={{ pathname: "/", hash: "#secao4" }} href="#">Sobre nós </Link></li>
+             <li><Link className={styles.links} to={{ pathname: "/", hash: "#secao4" }}> Carreira</Link></li>
+             <li><Link className={styles.links} to="/ajuda" href="#"> Contato</Link></li>
             </ul>
             
         </div>
@@ -27,10 +28,10 @@ function Footer(){
         <div  id={styles.bloco} className={styles.bloco2}>
             
         <ul className={styles.lista}>
-             <li><a className={styles.linksprincipal} href="#">Ouvidoria</a></li>
-             <li><a className={styles.links} href="#">0800 688 7000 </a></li>
-             <li><a className={styles.links} href="#">falawinbank@win.br</a></li>
-             <li><a className={styles.links} href="#">Atendimento das 8hás 19h30 (dias uteis)</a></li>
+             <li><Link className={styles.linksprincipal} to="/ajuda" href="#">Ouvidoria</Link></li>
+             <li><Link className={styles.links} to="/ajuda" href="#">0800 688 7000 </Link></li>
+             <li><Link className={styles.links} to="/ajuda" href="#">falawinbank@win.br</Link></li>
+             <li><Link className={styles.links} to="/ajuda" href="#">Atendimento das 8hás 19h30 (dias uteis)</Link></li>
         </ul>
             
         </div>     
@@ -39,10 +40,10 @@ function Footer(){
         <div  id={styles.bloco} className={styles.bloco3}>
             
         <ul className={styles.lista}>
-             <li><a className={styles.linksprincipal} href="#">Fala com a gente</a></li>
-             <li><a className={styles.links} href="#">0800 608 6238</a></li>
-             <li><a className={styles.links} href="#">meajuda@winbank.com.br</a></li>
-             <li><a className={styles.links} href="#">Atendimento 24h</a></li>
+             <li><Link className={styles.linksprincipal} to="/ajuda" href="#">Fala com a gente</Link></li>
+             <li><Link className={styles.links} to="/ajuda" href="#">0800 608 6238</Link></li>
+             <li><Link className={styles.links} to="/ajuda" href="#">meajuda@winbank.com.br</Link></li>
+             <li><Link className={styles.links} to="/ajuda" href="#">Atendimento 24h</Link></li>
        </ul>
              
         </div>    
@@ -53,8 +54,8 @@ function Footer(){
             <div className={styles.containerredes}>
     
             
-            <img  className={styles.baixarg} src={apple}></img>
-            <img  className={styles.baixara} src={googleplay}></img>
+          <Link to="/novidades"> <img  className={styles.baixarg} src={apple}></img></Link>
+          <Link to="/novidades" >  <img  className={styles.baixara} src={googleplay}></img></Link>
             <p className={styles.titulomobile}>Rede Sociais</p>
             <div className={styles.caixaplataforma}>
             <img  className={styles.whats} src={whats}></img>

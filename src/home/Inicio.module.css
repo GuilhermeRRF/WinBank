@@ -118,7 +118,6 @@ span {
     width: 25%;
     display: flex;
     justify-content: center;
-    padding: 2rem 0;
     margin: 0 2%;
     font-size: 1.8rem;
     background-color: rgb(17, 17, 17);
@@ -126,6 +125,16 @@ span {
     color: white;
 }
 
+.LinkBotao{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: rgb(223, 217, 217);
+}
 
 
 /*segunda rolagem fim*/
