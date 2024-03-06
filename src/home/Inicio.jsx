@@ -119,23 +119,21 @@ function Inicio() {/*usado para conseguir usar a tag ancora pra rolar ate a seç
           <div className={styles.CaixasVantagensPrincipal}>
             <div className={styles.caixa1}>
               <h1 className={styles.TituloCaixinha}>Indique Amigos</h1>
-              <p className={styles.TextoCaxinha}>
+              <p className={styles.TextoCaxinha} id={styles.TextoCaxinhaID}>
                 Indique seus amigos para o next e aproveitem juntos todas as
                 vantagens de um banco 100% digital e gratuito
               </p>
             </div>
             <div className={styles.caixa2}>
-              <h1 className={styles.TituloCaixinha}>Indique Amigos</h1>
+              <h1 className={styles.TituloCaixinha}>Invista no WinBank</h1>
               <p className={styles.TextoCaxinha}>
-                Indique seus amigos para o next e aproveitem juntos todas as
-                vantagens de um banco 100% digital e gratuito
+              aqui nosso foco é dar uma atenção maior para que investe afim de lucrar
               </p>
             </div>
             <div className={styles.caixa3}>
-              <h1 className={styles.TituloCaixinha}>Indique Amigos</h1>
+              <h1 className={styles.TituloCaixinha}>Conta  gratuitos</h1>
               <p className={styles.TextoCaxinha}>
-                Indique seus amigos para o next e aproveitem juntos todas as
-                vantagens de um banco 100% digital e gratuito
+              Ter uma conta no WinBank não custa nada. A conta é digital e sem tarifa de manutenção.
               </p>
             </div>
           </div>
@@ -216,7 +214,7 @@ function Inicio() {/*usado para conseguir usar a tag ancora pra rolar ate a seç
               </div>
             </div>
 
-            <div className={styles.CaixaVantagem1}>
+            <div className={styles.CaixaVantagem2}>
               <div className={styles.ImgPrincipalVantegens}>
                 <img
                   className={styles.SemAnuidade}
@@ -226,13 +224,13 @@ function Inicio() {/*usado para conseguir usar a tag ancora pra rolar ate a seç
               </div>
 
               <div className={styles.TituloVantagens}>
-                <ol>1. Sem Anuidade: Dizemos</ol>
+                <ol>2. Personalização Ilimitada: </ol>
               </div>
 
               <div className={styles.MiniTextoPrincipal}>
                 <p className={styles.MiniTexto}>
-                  No WinBank, todas as contas são 100% sem anuidade,
-                  proporcionando liberdade financeira sem custos ocultos.
+                Personalize seu cartão de débito ou crédito com designs 
+                exclusivos ou crie o seu próprio, refletindo sua identidade.
                 </p>
               </div>
             </div>
@@ -243,13 +241,13 @@ function Inicio() {/*usado para conseguir usar a tag ancora pra rolar ate a seç
               </div>
 
               <div className={styles.TituloVantagens}>
-                <ol>1. Sem Anuidade: Dizemos</ol>
+                <ol>3. Experiência Digital Inovadora:</ol>
               </div>
 
               <div className={styles.MiniTextoPrincipal}>
                 <p className={styles.MiniTexto}>
-                  No WinBank, todas as contas são 100% sem anuidade,
-                  proporcionando liberdade financeira sem custos ocultos.
+                Acesse suas contas, faça transferências e pague contas de forma 
+                conveniente através de nossa plataforma digital intuitiva .
                 </p>
               </div>
             </div>
