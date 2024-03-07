@@ -42,7 +42,7 @@ function Ajuda() {
             <img className={styles.Icone} src={Envelope} alt="" />
             <p className={styles.Titulo}>E-mail</p>
             <p className={styles.Texto}>Tem alguma duvida ?</p>
-            <p className={styles.MiniTexto}><a className={styles.link} href="#">centralajuda @winbank.com</a></p>
+            <p className={styles.MiniTexto}><a className={styles.link} href="#">centralajuda@winbank.com</a></p>
 
           </div>
 

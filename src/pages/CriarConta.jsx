@@ -43,7 +43,7 @@ function CriarConta() {
                 type="checkbox"
                 name="termoPrivacidade"
               />
-              Eu li, estou ciente das consições de tratamento dos meus dados
+              Eu li, estou ciente das condições de tratamento dos meus dados
               pessoais e dou meu consentimento, quando aplicavel, conforme
               descrita nesta Politica de Privacidade.
             </label>

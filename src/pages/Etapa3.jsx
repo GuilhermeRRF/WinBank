@@ -8,8 +8,8 @@ function Etapa3() {
       <main className={styles.SecaoPrincipal}>
         <section className={styles.ContainerCaixaPrincipal}>
           <div className={styles.Caixa}>    
-          <p className={styles.TextoAgradecimento}> Nós da WInbank agradecemos pelo seu voto de confiaça, seu cartão
-            chegara em breve aguarde novas instruções por email.</p> 
+          <p className={styles.TextoAgradecimento}> Nós da WinBank agradecemos pelo seu voto de confiança, seu cartão
+            chegará em breve aguarde novas instruções por email.</p> 
           </div>
         </section>
 
